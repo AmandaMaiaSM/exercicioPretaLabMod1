@@ -16,6 +16,7 @@ O objeto BOOK que será criado via POST deve seguir o seguinte formato:
   "description": "texto",
   "status": booleano (true/false)
 }
+'''
 
 ### Rotas da API
 GET /books: Retorna a lista de livros cadastrados.
