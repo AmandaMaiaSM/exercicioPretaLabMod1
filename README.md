@@ -16,11 +16,11 @@ O objeto BOOK que será criado via POST deve seguir o seguinte formato:
   "description": "texto",
   "status": booleano (true/false)
 }
------------
+
 ### Rotas da API
 GET /books: Retorna a lista de livros cadastrados.
 POST /books: Cria um novo livro.
------
+
 ### Testando a API
 Você pode testar essa API utilizando o Insomnia ou qualquer outra ferramenta similar para enviar requisições HTTP.
 
@@ -28,6 +28,7 @@ Você pode testar essa API utilizando o Insomnia ou qualquer outra ferramenta si
   - NodeJS
   - Express
   - CORS
+
 Exemplo de Requisição POST:
 URL: http://localhost:4000/books
 
