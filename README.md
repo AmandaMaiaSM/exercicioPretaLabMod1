@@ -9,13 +9,13 @@ A aplicação para armazena os dados na memória.
 O objeto BOOK que será criado via POST deve seguir o seguinte formato:
 
 
-{
+
   "id": número,
   "title": "texto",
   "year": número,
   "description": "texto",
   "status": booleano (true/false)
-}
+
 
 
 ### Rotas da API
